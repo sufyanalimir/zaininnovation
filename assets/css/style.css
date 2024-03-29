@@ -1,9 +1,114 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background: aliceblue;
+:root {
+  --primary-white: #fff;
+  --primary-dark: #000103;
+  --brand-color: #d61413;
+  --light-shade: #fdf8f5;
+  --dark-shade: #a72921;
+  --light-accent: #e6857e;
+  --dark-accent: #eeb238;
+  --primary-gradient: linear-gradient(
+    90deg,
+    rgba(214, 20, 19, 1) 0%,
+    rgba(167, 41, 33, 1) 50%,
+    rgba(230, 133, 126, 1) 100%
+  );
 }
+
+/*** Topbar Start ***/
+
+.topbar .top-info {
+  letter-spacing: 1px;
+}
+
+.topbar .top-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbar .top-link a {
+  margin-right: 10px;
+}
+
+#note {
+  width: 500px;
+  overflow: hidden;
+}
+
+#note small {
+  position: relative;
+  display: inline-block;
+  animation: mymove 10s infinite;
+  animation-timing-function: all;
+}
+
+@keyframes mymove {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+/*** Topbar End ***/
+
+/*** Navbar Start ***/
+.navbar .navbar-nav {
+  padding: 15px 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 10px;
+  margin-inline: 5px;
+  color: var(--primary-dark);
+  font-size: 18px;
+  outline: none;
+  transition: linear 1s ease-in;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: var(--brand-color);
+  
+}
+
+.navbar .dropdown-toggle::after {
+  border: none;
+  content: "\f107";
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+  color: var(--brand-color);
+}
+
+@media (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    top: 100%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+    transition: 0.5s;
+    opacity: 0;
+  }
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+/*** Navbar End ***/

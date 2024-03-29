@@ -6,9 +6,12 @@ include ("common/head.php");
 
 <body>
     <?php
-    include ("common/preloader.php")
-    ?>
-
+    // include ("common/preloader.php")
+        ?>
+    <?php
+    include ("common/navbar.php")
+        ?>
+    
 
     <?php
     include ("common/scripts.php");
