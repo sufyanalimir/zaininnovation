@@ -1,35 +1,33 @@
 <!-- Topbar -->
-<div class="container-fluid bg-dark py-2 d-none d-md-flex">
+<div class="container-fluid bg-topbar bg-dark py-2 d-none d-md-flex">
     <div class="container">
-        <div class="d-flex justify-content-between topbar">
+        <div class="d-flex justify-content-between align-items-center topbar">
             <div class="top-info">
-                <small class="me-3 text-white-50"><a href="#"><i
+                <small class="me-3 text-white"><a href="#"><i
                             class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Parbhani, MH, India</small>
-                <small class="me-3 text-white-50"><a href="#"><i
+                <small class="me-3 text-white"><a href="#"><i
                             class="fas fa-envelope me-2 text-secondary"></i></a>contact@zaininnovation.com</small>
             </div>
-            <div id="note" class="text-secondary d-none d-xl-flex"><small>Note : We help you to Grow your
-                    Business</small></div>
+            <div id="note" class="text-white d-none d-xl-flex">
+                <p class="mb-0">Empowering BRANDS, Inspiring SUCCESS</p>
+                <!-- <small>We help you to Grow your Business</small> -->
+            </div>
             <div class="top-link">
-                <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
-                        class="fab fa-facebook-f text-primary"></i></a>
-                <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
-                        class="fab fa-twitter text-primary"></i></a>
-                <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle"><i
-                        class="fab fa-instagram text-primary"></i></a>
-                <a href="" class="bg-light nav-fill btn btn-sm-square rounded-circle me-0"><i
-                        class="fab fa-linkedin-in text-primary"></i></a>
+                <a href="" class="btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="btn btn-sm-square rounded-circle"><i class="fab fa-twitter"></i></a>
+                <a href="" class="btn btn-sm-square rounded-circle"><i class="fab fa-instagram"></i></a>
+                <a href="" class="btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Navbar Start -->
-<div class="container-fluid">
+<div class="container-fluid nav-container">
     <div class="container">
-        <nav class="navbar navbar-light navbar-expand-lg py-0">
+        <nav class="navbar navbar-light navbar-expand-lg py-1">
             <a href="index.php" class="navbar-brand">
-                <h1 class="text-primary fw-bold d-block">Zain<span class="text-secondary">Innovation</span> </h1>
+                <h1 class="logo-heading text-primary fw-bold d-block">Zain Innovation</h1>
             </a>
             <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -37,7 +35,7 @@
             </button>
             <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                 <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                    <a href="index.html" class="nav-item nav-link active text-primary">Home</a>
+                    <a href="index.php" class="nav-item nav-link">Home</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
                         <div class="dropdown-menu rounded">
@@ -62,7 +60,7 @@
                         </div>
                     </div>
 
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="contact.html" class="nav-item nav-link">Reach Us</a>
                 </div>
             </div>
             <div class="d-none d-xl-flex flex-shirink-0 ps-4 border-start">

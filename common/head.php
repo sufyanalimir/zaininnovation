@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/lib/owl-carousel/owl-carousel.min.css">
     <link rel="stylesheet" href="assets/lib/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/lib/animate-style/animate.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/preloader.css">
     <link rel="stylesheet" href="assets/css/style.css">
