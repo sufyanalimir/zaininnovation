@@ -3,31 +3,41 @@
     <div class="container">
         <div class="d-flex justify-content-between align-items-center topbar">
             <div class="top-info">
+                <small class="me-3 text-white"><a href="#">
+                        <i class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Parbhani, MH, India
+                </small>
                 <small class="me-3 text-white"><a href="#"><i
-                            class="fas fa-map-marker-alt me-2 text-secondary"></i></a>Parbhani, MH, India</small>
-                <small class="me-3 text-white"><a href="#"><i
-                            class="fas fa-envelope me-2 text-secondary"></i></a>contact@zaininnovation.com</small>
+                            class="fas fa-envelope me-2 text-secondary"></i></a>contact@zaininnovation.com
+                </small>
             </div>
             <div id="note" class="text-white d-none d-xl-flex">
-                <p class="mb-0">Empowering BRANDS, Inspiring SUCCESS</p>
-                <!-- <small>We help you to Grow your Business</small> -->
+                <!-- <p class="mb-0">Empowering BRANDS, Inspiring SUCCESS</p> -->
+                <small>Empowering BRANDS, Inspiring SUCCESS</small>
             </div>
             <div class="top-link">
-                <a href="" class="btn btn-sm-square rounded-circle"><i class="fab fa-facebook-f"></i></a>
-                <a href="" class="btn btn-sm-square rounded-circle"><i class="fab fa-twitter"></i></a>
-                <a href="" class="btn btn-sm-square rounded-circle"><i class="fab fa-instagram"></i></a>
-                <a href="" class="btn btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
+                <a href="" class="btn btn-sm-square rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="btn btn-sm-square rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="btn btn-sm-square rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="btn btn-sm-square rounded-circle me-0 d-flex justify-content-center align-items-center">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Navbar Start -->
-<div class="container-fluid nav-container">
+<div class="container-fluid nav-container sticky-top">
     <div class="container">
         <nav class="navbar navbar-light navbar-expand-lg py-1">
             <a href="index.php" class="navbar-brand">
-                <h1 class="logo-heading text-primary fw-bold d-block">Zain Innovation</h1>
+                <h2 class="logo-heading text-primary fw-bold d-block">Zain Innovation</h2>
             </a>
             <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
@@ -72,7 +82,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="d-flex flex-column">
+                <div class="d-flex flex-column" style="font-size:1em;">
                     <span class="text-primary-50">Have any questions?</span>
                     <span class="text-primary">Call: +91 917 555 7777</span>
                 </div>
